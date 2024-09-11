@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    height: 55px;
+    background-color: #ffffff;
+}
+.navbar-panel{
+    height: 65px;
+    background-color: #ffffff;
+    padding: 6px 12px 12px 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+    
+}
+.navbar-logo{
+    height: 40px;
+    width: 160px;
+    text-align: end;
+}
+.search-panel{
+    background-color: aliceblue;
+    height: 40px;
+    width: 766px;
+    color: rgb(51, 50, 50);
+    border: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.search-button{
+    height: 40px;
+    width: 44px;
+    padding: 8px 8px 8px 12px;
+    display: inline;
+}
+.input-field{
+    height: 40px;
+    width: 722px;
+    background-color: aliceblue;
+    border: none;
+   
+}
+.navbar-login{
+    height: 40px;
+    width: 130px;
+    padding: 8px;
+    border: 1px solid transparent;
+    font-size: 1.2rem;
+}
+.marg{
+    font-size:1.2rem;
+    margin-top: 8px;
+}
+main{
+    background-color: whitesmoke;
+    height: 200vh;
+}
+.shop-panel-items{
+    height: 126px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    
+}
+.content{
+    margin:  10px 16px 16px 16px;
+    position: relative;
+    top:16px;
+}
+
+.shop-panel{
+    height: 126px;
+    width: 130px;
+    padding: 16px 16px 16px 24px;
+
+}
+span{
+    font-weight: 500;
+}
+.shop-contents{
+    background-color: #ffffff;
+}
+.box{
+    height: 220px;
+    width:200px;
+    border: 1px solid rgb(179, 175, 175);
+    border-radius: 4px;
+}
+.shop-content-boxes{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 16px;
+}
+.content-name{
+   margin:16px 16px 20px 16px;
+   position: relative;
+   top: 16px;
+}
+footer{
+    margin-top: 20px;
+}
+.foot-panel{
+    background-color: #37475a;
+    color: white;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #232f3e;
+    color: white;
+    height:400px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+ul a{
+    color:#dddddd;
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+}
+ul p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.foot-panel4{
+    background-color: #131a22;
+    color: white;
+    height: 78px;
+    font-size: 12px;
+    text-align: center;
+    
+}
+.pages a{
+    color: #cccccc;
+    margin-right: 10px;
+}
+.pages {
+   padding-top: 25px;
+   
+}
+.copy{
+    
+    padding-top: 10px;
+}
+
+
